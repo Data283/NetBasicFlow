@@ -10,6 +10,7 @@ public class TestMain {
         try {
             File file = new File("InputAndOutput\\hello.txt");
             File file1 = new File("InputAndOutput\\hello1.txt");
+            String s = new String("text");
 
             //提供具体的流
             fileReader = new FileReader(file);
