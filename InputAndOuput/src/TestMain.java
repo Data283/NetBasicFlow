@@ -9,7 +9,7 @@ public class TestMain {
         FileReader fileReader = null;
         try {
             File file = new File("InputAndOutput\\hello.txt");
-            File file1 = new File("InputAndOutput\\hello.txt");
+            File file1 = new File("InputAndOutput\\hello1.txt");
 
             //提供具体的流
             fileReader = new FileReader(file);
