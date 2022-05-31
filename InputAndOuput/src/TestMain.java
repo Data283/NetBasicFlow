@@ -8,7 +8,7 @@ public class TestMain {
         //实例化File类文件， 指明要具体操作的文件
         FileReader fileReader = null;
         try {
-            File file = new File("InputAndOutput\\hello.txt");
+            File file = new File("InputAndOutput\\helloTest.txt");
 
             //提供具体的流
             fileReader = new FileReader(file);
